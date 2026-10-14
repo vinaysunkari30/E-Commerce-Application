@@ -8,11 +8,9 @@ const FiltersGroup = props => {
 
     return ratingsList.map(rating => {
       const {changeRating, activeRatingId} = props
-      const ratingClassName = 
+      const ratingClassName =
         activeRatingId === rating.ratingId ? `and-up active-rating` : `and-up`
-      
       const onClickRatingItem = () => changeRating(rating.ratingId)
-
       return (
         <li
           className="rating-item"
@@ -39,7 +37,6 @@ const FiltersGroup = props => {
 
   const renderCategoriesList = () => {
     const {categoryOptions} = props
-
     return categoryOptions.map(category => {
       const {changeCategory, activeCategoryId} = props
       const onClickCategoryItem = () => changeCategory(category.categoryId)
@@ -47,7 +44,6 @@ const FiltersGroup = props => {
       const categoryClassName = isActive
         ? `category-name active-category-name`
         : `category-name`
-
       return (
         <li
           className="category-item"
