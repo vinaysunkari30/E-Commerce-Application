@@ -50,7 +50,7 @@ Password: raja@2021
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/vinaysunkari30/E-Commerce-Application.git
 ```
 
 ### 2. Navigate to the Project Directory
