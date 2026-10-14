@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-**Visit Nxt Trendz - https://vinaysnxttrendz.ccbp.tech/login**
+**Visit Nxt Trendz - https://vinay-e-commerce-application.vercel.app/login**
 
 Nxt Trendz is an e-commerce web application inspired by Amazon, where users can log in, browse products, search and filter products, sort products, and explore an online shopping experience.
 
@@ -92,4 +92,4 @@ The application will run locally at the URL displayed in your terminal.
 
 ## Live Application
 
-https://vinaysnxttrendz.ccbp.tech/login
+https://vinay-e-commerce-application.vercel.app/login
